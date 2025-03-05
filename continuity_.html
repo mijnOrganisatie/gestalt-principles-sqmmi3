@@ -16,6 +16,17 @@
         gap: 30px;
       }
       /* ✅ Beter voorbeeld van continiuity */
+      .good-nav {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+      }
+
+      .good-nav li+li:before {
+        padding: 8px;
+        color: black;
+        content: ">";
+      }
     </style>
   </head>
   <body>
